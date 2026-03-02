@@ -1,4 +1,4 @@
-# 🚀 NeuroDash --- Execution Roadmap (Step-by-Step Build Plan)
+# NeuroDash --- Execution Roadmap (Step-by-Step Build Plan)
 
 This document defines the structured development flow for building
 NeuroDash using Expo + React Native (TSX).
@@ -9,7 +9,7 @@ mindset - Scalable backend design
 
 ------------------------------------------------------------------------
 
-# 🏁 Phase 0 --- Project Setup & Architecture Foundation (COMPLETED)
+# Phase 0 --- Project Setup & Architecture Foundation (COMPLETED)
 
 ## 0.1 Install Core Dependencies
 
@@ -26,14 +26,9 @@ mindset - Scalable backend design
 -   Enable Hermes
 -   Ensure JSI compatibility
 
-## 0.3 Define Folder Structure
-
-/src /components /screens /game /engine /systems /entities /animations
-/hooks /services /store /utils
-
 ------------------------------------------------------------------------
 
-# 🎮 Phase 1 --- Core Game Engine (NO Backend Yet)
+# Phase 1 --- Core Game Engine (NO Backend Yet)
 
 Goal: Build a working infinite runner loop.
 
@@ -72,7 +67,7 @@ Deliverable: Playable prototype with basic movement + collision.
 
 ------------------------------------------------------------------------
 
-# 👆 Phase 2 --- Gesture & Interaction Layer
+# Phase 2 --- Gesture & Interaction Layer
 
 Goal: Make gameplay feel responsive and fluid.
 
@@ -101,7 +96,7 @@ Deliverable: Full gesture-driven gameplay.
 
 ------------------------------------------------------------------------
 
-# ✨ Phase 3 --- Advanced Animation & Effects
+# Phase 3 --- Advanced Animation & Effects
 
 Goal: Make it visually insane.
 
@@ -130,7 +125,7 @@ Deliverable: Polished arcade feel.
 
 ------------------------------------------------------------------------
 
-# 🧠 Phase 4 --- State Architecture & Optimization
+# Phase 4 --- State Architecture & Optimization
 
 Goal: Make it scalable and clean.
 
@@ -157,7 +152,7 @@ Deliverable: Stable 60--120 FPS gameplay.
 
 ------------------------------------------------------------------------
 
-# 🌐 Phase 5 --- Backend Integration (Appwrite)
+# Phase 5 --- Backend Integration (Appwrite)
 
 Goal: Add real user progression.
 
@@ -186,7 +181,7 @@ Deliverable: Fully connected online system.
 
 ------------------------------------------------------------------------
 
-# 🏆 Phase 6 --- Advanced Features
+# Phase 6 --- Advanced Features
 
 ## 6.1 Skill Tree Screen
 
@@ -206,7 +201,7 @@ Deliverable: Fully connected online system.
 
 ------------------------------------------------------------------------
 
-# 📦 Phase 7 --- Production Polish
+# Phase 7 --- Production Polish
 
 -   Splash screen animation
 -   App icon & branding
@@ -218,23 +213,10 @@ Deliverable: Fully connected online system.
 
 ------------------------------------------------------------------------
 
-# 🎯 Development Strategy
+# Development Strategy
 
 Rule 1: Build core logic before visuals. Rule 2: Never optimize
 prematurely. Rule 3: Separate engine logic from UI layer. Rule 4: Test
 performance after every major feature.
 
 ------------------------------------------------------------------------
-
-# 🚀 Immediate Next Step
-
-Start with:
-
-Phase 1 → Game Loop + Player + Basic Obstacle Spawn
-
-DO NOT build backend yet.
-
-------------------------------------------------------------------------
-
-This roadmap will evolve as the system grows. Commit after every major
-milestone.

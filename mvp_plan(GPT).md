@@ -1,6 +1,6 @@
-# 🚀 NeuroDash --- Cyberpunk Reflex Strategy Game
+# NeuroDash --- Cyberpunk Reflex Strategy Game
 
-## 📌 Vision
+## Vision
 
 NeuroDash is a high-performance, cyberpunk-themed reflex + strategy game
 built in React Native (TSX). The goal is to push the limits of
@@ -12,7 +12,7 @@ deep-dive learning vehicle into advanced React Native systems
 
 ------------------------------------------------------------------------
 
-# 🎮 Core Gameplay Concept
+# Core Gameplay Concept
 
 You play as a "Neural Runner" inside a digital system.
 
@@ -27,7 +27,7 @@ Gameplay difficulty increases dynamically.
 
 ------------------------------------------------------------------------
 
-# 🧠 Technical Goals
+# Technical Goals
 
 This project is meant to master:
 
@@ -42,7 +42,7 @@ This project is meant to master:
 
 ------------------------------------------------------------------------
 
-# 🏗 Tech Stack
+# Tech Stack
 
 ## Frontend
 
@@ -92,7 +92,7 @@ This project is meant to master:
 
 ------------------------------------------------------------------------
 
-# 🕹 Game Engine Design
+# Game Engine Design
 
 ## Core Loop
 
@@ -111,7 +111,7 @@ This project is meant to master:
 
 ------------------------------------------------------------------------
 
-# 🧩 Core Features (MVP)
+# Core Features (MVP)
 
 ## Phase 1 --- Core Mechanics
 
@@ -151,7 +151,7 @@ This project is meant to master:
 
 ------------------------------------------------------------------------
 
-# 🌐 Backend Design (Appwrite)
+# Backend Design (Appwrite)
 
 ## Database Collections
 
@@ -173,7 +173,7 @@ This project is meant to master:
 
 ------------------------------------------------------------------------
 
-# 📊 Advanced Feature Ideas
+# Advanced Feature Ideas
 
 -   AI adaptive difficulty system
 -   Ranked MMR system
@@ -184,14 +184,7 @@ This project is meant to master:
 
 ------------------------------------------------------------------------
 
-# 🏛 Suggested Folder Structure
-
-/src /components /screens /game /engine /systems /entities /animations
-/hooks /services /store /utils
-
-------------------------------------------------------------------------
-
-# 🎯 Learning Outcomes
+# Learning Outcomes
 
 By completing NeuroDash, you will understand:
 
@@ -205,7 +198,7 @@ By completing NeuroDash, you will understand:
 
 ------------------------------------------------------------------------
 
-# 🚀 Long-Term Vision
+# Long-Term Vision
 
 NeuroDash can evolve into:
 
@@ -217,7 +210,7 @@ NeuroDash can evolve into:
 
 ------------------------------------------------------------------------
 
-# 🧠 Philosophy
+# Philosophy
 
 This is not just a game. This is a React Native systems mastery project.
 
