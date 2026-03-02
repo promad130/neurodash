@@ -1,50 +1,119 @@
-# Welcome to your Expo app 👋
+# NeuroDash
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A high-performance cyberpunk infinite runner.
 
-## Get started
+This project is designed as a systems-level exploration of:
+- Game loop architecture
+- Frame-based updates
+- Engine → Store → UI separation
+- Real-time collision detection
+- Dynamic difficulty scaling
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Phase 1 — Core Engine Complete
 
-2. Start the app
+### Implemented Systems
 
-   ```bash
-   npx expo start
-   ```
+### Game Loop
+- `requestAnimationFrame` based loop
+- Delta time calculation
+- Pause / Stop control
+- Clean restart lifecycle
 
-In the output, you'll find options to open the app in a
+### Engine Architecture
+- Pure TypeScript game engine
+- Entity-based design
+- Modular systems structure
+- No React dependency inside engine
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Player System
+- Position tracking
+- Frame-based movement
+- Reset handling
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Obstacle System
+- Procedural spawning
+- Dynamic spawn timing
+- Off-screen cleanup
+- Speed scaling
 
-## Get a fresh project
+### Collision Detection
+- Axis-Aligned Bounding Box (AABB)
+- Engine-level collision resolution
+- Game over trigger
 
-When you're ready, run:
+### Score System
+- Time-based score accumulation
+- Stops on collision
+- Resets on restart
 
-```bash
-npm run reset-project
-```
+### Difficulty Scaling
+- Gradual speed increase
+- Spawn interval reduction
+- Scales infinitely
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Architecture
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Engine (Core Logic)
+↓
+Zustand Store (Shared State)
+↓
+React UI (Render Layer)
 
-## Join the community
 
-Join our community of developers creating universal apps.
+The engine is fully decoupled from React components.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## Folder Structure
+
+
+/src
+  /game
+    /engine
+    /entities
+    /systems
+/store
+/screens
+/components
+
+
+---
+
+## Tech Stack
+
+- React Native (Expo)
+- TypeScript
+- Zustand
+- React Native Reanimated (configured)
+- Gesture Handler (configured)
+- Hermes enabled
+
+---
+
+## What Phase 1 Achieves
+
+A fully functional infinite runner core engine with:
+
+- Smooth frame updates (~60–120 FPS)
+- Real-time collision
+- Dynamic difficulty
+- Clean restart cycle
+
+---
+
+## Next Phase
+
+Phase 2 will focus on:
+- Gesture-driven player control
+- Ability system
+- Slow-motion mechanics
+- Advanced animation layer
+
+---
+
+Built as a BGEC learning project.
